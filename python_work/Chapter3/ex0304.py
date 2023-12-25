@@ -57,3 +57,4 @@ del guest_list[0]
 del guest_list[0]
 
 print(guest_list)
+print(f"There are only {len(guest_list)} guests left")
