@@ -14,5 +14,5 @@ print(players[0::2]) # Third vvalue tells Python to skip how many items
 
 # Looping Through a Slice
 print("Here are the first three players on my team:")
-for players in players[:3]:
-    print(players.title())
+for player in players[:3]:
+    print(player.title())
