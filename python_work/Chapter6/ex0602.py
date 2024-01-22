@@ -8,5 +8,5 @@ favourite_numbers = {
 print(f"Alice's favourite number is : {favourite_numbers['alice']}")
 print(f"Marvin's favourite number is : {favourite_numbers['marvin']}")
 print(f"Reacher's favourite number is : {favourite_numbers['reacher']}")
-print(f"JOrdan's favourite number is : {favourite_numbers['jordan']}")
+print(f"Jordan's favourite number is : {favourite_numbers['jordan']}")
 print(f"Bond's favourite number is : {favourite_numbers['bond']}")
