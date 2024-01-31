@@ -1,4 +1,5 @@
 def send_messages(text_messages, sent_messages):
+    """Function prints a text message and appends the text messages to a new list"""
     while text_messages:
         current_message = text_messages.pop()
         print(f"\n{current_message}")

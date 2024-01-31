@@ -1,4 +1,5 @@
 def make_car(name, model, **car_info):
+    """Funciton prints the info of a car"""
     car_info['car name'] = name
     car_info['model'] = model
     return car_info

@@ -1,4 +1,5 @@
 def sandwich_order(*sandwiches):
+    """Function prints the order summary of sandwiches"""
     print("\nHere is your order: ")
     for sandwich_type in sandwiches:
         print(f"- {sandwich_type.title()} sandwich.")

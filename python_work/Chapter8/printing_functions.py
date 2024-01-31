@@ -1,7 +1,3 @@
-# Modifying a List in a Function
-
-# Simulate printing each design, until none are left.
-# Move each design to completed models after printing.
 def print_models(unprinted_designs, completed_models):
     """
     Simulate printing each design, until none are left.
@@ -12,18 +8,8 @@ def print_models(unprinted_designs, completed_models):
         print(f"Printing model: {current_design}")
         completed_models.append(current_design)
 
-# Display all completed models.
 def show_completed_models(completed_models):
     """Show all the modls that were printed."""
     print("\nThe following models have been printed:")
     for completed_model in completed_models:
         print(completed_model)
-
-unprinted_designs = ['phone case', 'robot pendant', 'dodecahedron']
-completed_models = []
-
-print_models(unprinted_designs, completed_models)
-show_completed_models(completed_models)
-
-# Preventing a Function from Modifying a List
-# function_name(list_name[:]) 
