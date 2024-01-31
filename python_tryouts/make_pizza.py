@@ -1,5 +1,6 @@
 # Passing an Arbitary Number of Arguments
-def make_pizza(size, *toppings): # This would require variadic funcitons in C lol
+# This would require variadic funcitons in C lol
+def make_pizza(size, *toppings): # '*toppings' creates a tuple
     """Summarize the pizza we are about to make."""
     print(f"\nMaking a {size}-inch pizza with the following toppings:")
     for topping in toppings:
