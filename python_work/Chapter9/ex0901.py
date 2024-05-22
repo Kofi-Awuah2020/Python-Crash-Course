@@ -15,8 +15,15 @@ class Restuarant:
         print(f"{self.name} is open")
 
 restuarant = Restuarant('KFC', 'Spicy chicken bucket')
+new_restuarant = Restuarant('Barcelos', 'Family meal')
+old_restuarant = Restuarant('Tasty Queen', 'Jollof')
+his_restuarant = Restuarant('Oldies', 'Fufu')
 
 print(f"{restuarant.name} is my favourite restaurant.")
 print(f"{restuarant.cuisine} is my favourite meal on the menu")
 
-# my_restuarant
+new_restuarant.describe_restuarant()
+
+old_restuarant.describe_restuarant()
+
+his_restuarant.describe_restuarant()
