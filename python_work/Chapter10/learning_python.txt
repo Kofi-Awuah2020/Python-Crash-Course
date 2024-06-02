@@ -1,0 +1,3 @@
+In python you can represent real life things as objects in OOP
+In python you can store a lists
+In python you can read a file
