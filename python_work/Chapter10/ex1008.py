@@ -5,11 +5,11 @@ def print_files(path):
     try:
         content = path.read_text()
     except FileNotFoundError:
-        print("The file cannot be found")
+        pass
     else:
         print(content)
 
-filenames = ['dogs.txt', 'cats.txt']
+filenames = ['dogs.txt', 'cats.txt', 'animal.txt']
 for index, filename in enumerate(filenames):
     path = Path(filename)
     print_files(path)
